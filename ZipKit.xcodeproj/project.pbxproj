@@ -14,13 +14,13 @@
 		CB6F0A1417483A9A00F91524 /* NSFileHandle+ZKAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = CB6F09F117483A9A00F91524 /* NSFileHandle+ZKAdditions.h */; };
 		CB6F0A1517483A9A00F91524 /* NSFileManager+ZKAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = CB6F09F217483A9A00F91524 /* NSFileManager+ZKAdditions.h */; };
 		CB6F0A1617483A9A00F91524 /* NSString+ZKAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = CB6F09F317483A9A00F91524 /* NSString+ZKAdditions.h */; };
-		CB6F0A1717483A9A00F91524 /* ZKArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = CB6F09F417483A9A00F91524 /* ZKArchive.h */; };
+		CB6F0A1717483A9A00F91524 /* ZKArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = CB6F09F417483A9A00F91524 /* ZKArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CB6F0A1817483A9A00F91524 /* ZKCDHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = CB6F09F517483A9A00F91524 /* ZKCDHeader.h */; };
 		CB6F0A1917483A9A00F91524 /* ZKCDTrailer.h in Headers */ = {isa = PBXBuildFile; fileRef = CB6F09F617483A9A00F91524 /* ZKCDTrailer.h */; };
 		CB6F0A1A17483A9A00F91524 /* ZKCDTrailer64.h in Headers */ = {isa = PBXBuildFile; fileRef = CB6F09F717483A9A00F91524 /* ZKCDTrailer64.h */; };
 		CB6F0A1B17483A9A00F91524 /* ZKCDTrailer64Locator.h in Headers */ = {isa = PBXBuildFile; fileRef = CB6F09F817483A9A00F91524 /* ZKCDTrailer64Locator.h */; };
-		CB6F0A1C17483A9A00F91524 /* ZKDataArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = CB6F09F917483A9A00F91524 /* ZKDataArchive.h */; };
-		CB6F0A1D17483A9A00F91524 /* ZKDefs.h in Headers */ = {isa = PBXBuildFile; fileRef = CB6F09FA17483A9A00F91524 /* ZKDefs.h */; };
+		CB6F0A1C17483A9A00F91524 /* ZKDataArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = CB6F09F917483A9A00F91524 /* ZKDataArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB6F0A1D17483A9A00F91524 /* ZKDefs.h in Headers */ = {isa = PBXBuildFile; fileRef = CB6F09FA17483A9A00F91524 /* ZKDefs.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CB6F0A1E17483A9A00F91524 /* ZKFileArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = CB6F09FB17483A9A00F91524 /* ZKFileArchive.h */; };
 		CB6F0A1F17483A9A00F91524 /* ZKLFHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = CB6F09FC17483A9A00F91524 /* ZKLFHeader.h */; };
 		CB6F0A2017483A9A00F91524 /* ZKLog.h in Headers */ = {isa = PBXBuildFile; fileRef = CB6F09FD17483A9A00F91524 /* ZKLog.h */; };
@@ -334,6 +334,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB6F0A1C17483A9A00F91524 /* ZKDataArchive.h in Headers */,
+				CB6F0A1717483A9A00F91524 /* ZKArchive.h in Headers */,
+				CB6F0A1D17483A9A00F91524 /* ZKDefs.h in Headers */,
 				CB6F0A1017483A9A00F91524 /* GMAppleDouble+ZKAdditions.h in Headers */,
 				CB6F0A1117483A9A00F91524 /* NSData+ZKAdditions.h in Headers */,
 				CB6F0A1217483A9A00F91524 /* NSDate+ZKAdditions.h in Headers */,
@@ -341,13 +344,10 @@
 				CB6F0A1417483A9A00F91524 /* NSFileHandle+ZKAdditions.h in Headers */,
 				CB6F0A1517483A9A00F91524 /* NSFileManager+ZKAdditions.h in Headers */,
 				CB6F0A1617483A9A00F91524 /* NSString+ZKAdditions.h in Headers */,
-				CB6F0A1717483A9A00F91524 /* ZKArchive.h in Headers */,
 				CB6F0A1817483A9A00F91524 /* ZKCDHeader.h in Headers */,
 				CB6F0A1917483A9A00F91524 /* ZKCDTrailer.h in Headers */,
 				CB6F0A1A17483A9A00F91524 /* ZKCDTrailer64.h in Headers */,
 				CB6F0A1B17483A9A00F91524 /* ZKCDTrailer64Locator.h in Headers */,
-				CB6F0A1C17483A9A00F91524 /* ZKDataArchive.h in Headers */,
-				CB6F0A1D17483A9A00F91524 /* ZKDefs.h in Headers */,
 				CB6F0A1E17483A9A00F91524 /* ZKFileArchive.h in Headers */,
 				CB6F0A1F17483A9A00F91524 /* ZKLFHeader.h in Headers */,
 				CB6F0A2017483A9A00F91524 /* ZKLog.h in Headers */,
