@@ -44,10 +44,12 @@
 	[self removeObserver:self forKeyPath:@"filename"];
 }
 
+#if 0
 - (void) finalize {
 	[self removeObservers];
 	[super finalize];
 }
+#endif
 
 - (void) dealloc {
 	[self removeObservers];
