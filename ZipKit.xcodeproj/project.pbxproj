@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -469,7 +469,7 @@
 				ORGANIZATIONNAME = "Karl Moskowski";
 			};
 			buildConfigurationList = CB6F09C8174838FC00F91524 /* Build configuration list for PBXProject "ZipKit" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
